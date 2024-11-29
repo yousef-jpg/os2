@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+      -master
+
+
+
+
+
+
+jpobs : 
+  build:
+      runs-on:: ubuntu-latest
+
+
+      steps:
+        - name: "testin github action"
+          run: pd
+
+        - name: 'Testing Printing'
+          run: echo yousef
